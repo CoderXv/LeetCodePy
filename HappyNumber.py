@@ -17,6 +17,7 @@
 	- map(para1, para2) function is a BIF in Py, which is used for parse all of the elements in the para2 with the method of para1, returning elements which has been processed.
 	- pow(x, y) function is also a BIF, which means x ^ y, then returning the result.
 	- sum(para) function is also a BIF, which returns the sum of elements in para.
+	- x // y returns (floored) quotient of x and y.
 """
 # --- Program ---
 class Solution(object):
