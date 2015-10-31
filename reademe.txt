@@ -1,0 +1,1 @@
+This is the solution that's accepted by LeetCode Online Judgement.
