@@ -1,4 +1,4 @@
-#------------------Introduction------------------------
+# ------------------Introduction------------------------
 """
 	You are playing the following Nim Game with your friend: There is a heap of stones on the table, each time one of you take turns to remove 1 to 3 stones. The one who removes the last stone will be the winner. You will take the first turn to remove the stones.
 
@@ -11,13 +11,13 @@
 	If there are 5 stones in the heap, could you figure out a way to remove the stones such that you will always be the winner?
 """
 
-#------------------Solution In brief-----------------------
+# ------------------Solution In brief-----------------------
 """
 	Each time we can take 1, 2, 3 stones, so if the number of stones in the heap can be divided by 4, we'll always lose the game. if not, there's always a strategy that 
 	we can win.
 """
 
-#-------------------Program--------------------------------
+# -------------------Program--------------------------------
 class Solution(object):
 	def canWinNime(self, n):
 	"""
