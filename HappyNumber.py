@@ -34,7 +34,7 @@ class Solution(object):
 		return self.isHappy(self.happy(number))
 		
 	def square(self, number):
-		return int(number) * int(numer)
+		return int(number) * int(number)
 		
 	def happy(self, number):
 		return sum(map(self.square, list(str(number))))
