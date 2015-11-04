@@ -1,6 +1,9 @@
 # LeetCodePy
 
 
-This is the solution which is accepted by OJ.
+These are the solutions which were accepted by OJ.
+
+
+Not the best solution, attention please.
 
 
