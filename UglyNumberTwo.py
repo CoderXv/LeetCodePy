@@ -20,7 +20,8 @@
 	- From hint 1 and 2, we can initialize a element as figure 1, then multiply it with 
 	2, 3, and 5, trying to find the qualified ugly number.
 	- From hint 3 and 4, we can allocate room for storing the previous ugly number, then 
-	multiply it with 2, 3, or 5 to find next ugly number till we find the n-th ugly number. So we should define a list, the last element in this list is the n-th ugly
+	multiply it with 2, 3, or 5 to find next ugly number till we find the n-th ugly number.
+	So we should define a list, the last element in this list is the n-th ugly
 	number we need to find.
 """
 

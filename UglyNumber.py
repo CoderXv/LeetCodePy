@@ -9,7 +9,8 @@
 
 # --- Solution in Brief ---
 """
-	- devided 2, 3, 5 in loop one after another to see the ultimate residence is 1 or not.
+	- devided 2, 3, 5 in loop one after another to
+	see the ultimate residence is 1 or not.
 """
 
 # --- Program ---

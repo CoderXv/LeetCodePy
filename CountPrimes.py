@@ -3,9 +3,11 @@
 	- Count the number of prime numbers less than a non-negative number, n
 	- Hint:
 		- parse all the int less than n -> complexity: O(n^2)
-		- optimize: the prime number must not be divisible by any number > n/2,so we can
+		- optimize: 
+		the prime number must not be divisible by any number > n/2,so we can
 		cut the iteration up to n/2.
-		- optimize: We only to consider factors up to sqrt(n), if n is divisible by some
+		- optimize: We only to consider factors up to sqrt(n), 
+		if n is divisible by some
 		number p, then n = P * q and since p <= q, we could derive that p <= sqrt(n),
 		   -> complexity: O(n^1.5)
 		- optimize: Sieve of Eratosthenes complexity: 
@@ -18,8 +20,8 @@
 	Sieve of Eratosthenes:
 	Input: an integer n > 1
 	
-	Let A be an array of Boolean values, indexed by integers 2 to n,initially all set 
-	to True.
+	Let A be an array of Boolean values, indexed by integers 2 to n,
+	initially all set to True.
 	for i = 2, 3, 4, ... , not exceeding sqrt(n):
 		if A[i] is True:
 			for j = i^2, i^2+i, i^2+2*i, ..., not exceeding n:
